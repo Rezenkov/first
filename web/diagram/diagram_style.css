@@ -1,0 +1,17 @@
+div{
+	border: solid 10px green;
+	background: #BCF4BB;
+	width: 100px;
+	height: 75px;
+	border-radius: 60px;
+	border-right-color: #84D58A;
+	text-align: center;
+	margin:auto;
+	font-size: 200%;
+
+	padding-top: 25px;	
+}
+
+span{
+	font-size: 75%;
+}
