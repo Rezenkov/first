@@ -1,0 +1,106 @@
+.external{
+	width: 692px;
+	top:100px;
+	margin: auto;
+	position: relative;
+}
+
+
+.avatars{
+	height: 200px;
+	width: 200px;
+	border: solid 2px #BFBFBF;
+	border-radius: 100px;
+	position: absolute;
+	z-index: 1;
+}
+
+.avatar1{
+	background: url(avatar1.jpg) no-repeat;
+	background-position: center center;
+	display: block;
+}
+
+.avatar2{
+	background: url(avatar2.jpg) no-repeat;
+	display: block;
+	left: 244px;
+}
+
+.avatar3{
+	background: url(avatar3.jpg) no-repeat;
+	background-position: center -40px; 
+	display: block;
+	left: 488px; 
+}
+
+.sprites{
+	background: url(sprites.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	z-index: 2;
+}
+
+.fb{
+	background-position: 0px 0px;
+	left:60px;
+	top: -15px;
+}
+
+.fb:hover:after{
+	background-position: 0px -40px;
+	cursor: pointer;
+	content: "Facebook";
+	z-index:3;
+	background: white;
+	font-size: 11px;
+	padding: 5px;
+	border: solid 1px black;
+}
+
+.gp{
+	background-position: -40px 0px;
+	bottom:-20px;
+	left:80px;
+}
+
+.gp:hover{
+	background-position: -40px -40px;
+	cursor: pointer;
+}
+
+.ok{
+	background-position: -80px 0px;
+	left:20px;
+	top:-5px;
+}
+
+.ok:hover{
+	background-position: -80px -40px;
+	cursor: pointer;
+}
+
+.tw{
+	background-position: -120px 0px;
+	top:28px;
+	left:-5px;
+}
+
+.tw:hover{
+	background-position: -120px -40px;
+	cursor: pointer;
+}
+
+.vk{
+	background-position: -160px 0px;
+	top:80px;
+	left: -20px;
+}
+
+.vk:hover{
+	background-position: -160px -40px;
+	cursor: pointer;
+}
+
