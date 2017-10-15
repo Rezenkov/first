@@ -1,0 +1,39 @@
+table{
+	border: solid 4px #1E00FE;
+	background: #0066FF;
+	border-collapse: collapse;
+	height: 250px;
+	width: 400px;
+	color: white;
+}
+
+th
+{
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 15px;
+	font-size: 150%
+}
+th:first-child{
+	border-bottom: solid 1px white;
+}
+
+td{
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-right: 40px;
+
+}
+
+td:nth-child(even){
+	padding-left: 0px;
+}
+
+input[type="button"]{
+	border: 0px;
+	background: #FCF906
+}
+
+input[type="text"]{
+	width: 100%;
+}
